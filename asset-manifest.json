@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/schbang-assignment/static/css/main.8adb2c8b.chunk.css",
+    "main.js": "/schbang-assignment/static/js/main.408eab59.chunk.js",
+    "main.js.map": "/schbang-assignment/static/js/main.408eab59.chunk.js.map",
+    "runtime-main.js": "/schbang-assignment/static/js/runtime-main.3ca9c73e.js",
+    "runtime-main.js.map": "/schbang-assignment/static/js/runtime-main.3ca9c73e.js.map",
+    "static/js/2.c27725f8.chunk.js": "/schbang-assignment/static/js/2.c27725f8.chunk.js",
+    "static/js/2.c27725f8.chunk.js.map": "/schbang-assignment/static/js/2.c27725f8.chunk.js.map",
+    "static/js/3.06028bec.chunk.js": "/schbang-assignment/static/js/3.06028bec.chunk.js",
+    "static/js/3.06028bec.chunk.js.map": "/schbang-assignment/static/js/3.06028bec.chunk.js.map",
+    "index.html": "/schbang-assignment/index.html",
+    "static/css/main.8adb2c8b.chunk.css.map": "/schbang-assignment/static/css/main.8adb2c8b.chunk.css.map",
+    "static/js/2.c27725f8.chunk.js.LICENSE.txt": "/schbang-assignment/static/js/2.c27725f8.chunk.js.LICENSE.txt",
+    "static/media/1.9334a3b5.svg": "/schbang-assignment/static/media/1.9334a3b5.svg",
+    "static/media/2.d1a4653d.svg": "/schbang-assignment/static/media/2.d1a4653d.svg",
+    "static/media/secondSection.scss": "/schbang-assignment/static/media/section2.4565d119.png",
+    "static/media/App.scss": "/schbang-assignment/static/media/hero-image.e2e118d9.png",
+    "static/media/logo.3b1ed289.png": "/schbang-assignment/static/media/logo.3b1ed289.png",
+    "static/media/oats-3.1d0b192b.svg": "/schbang-assignment/static/media/oats-3.1d0b192b.svg",
+    "static/media/quote.7e28d283.svg": "/schbang-assignment/static/media/quote.7e28d283.svg",
+    "static/media/section-img.745694cb.png": "/schbang-assignment/static/media/section-img.745694cb.png",
+    "static/media/step 1-6.7def61b5.png": "/schbang-assignment/static/media/step 1-6.7def61b5.png",
+    "static/media/step 2-4.8af9c4aa.png": "/schbang-assignment/static/media/step 2-4.8af9c4aa.png",
+    "static/media/step 3-3.583a7b5c.png": "/schbang-assignment/static/media/step 3-3.583a7b5c.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3ca9c73e.js",
+    "static/js/2.c27725f8.chunk.js",
+    "static/css/main.8adb2c8b.chunk.css",
+    "static/js/main.408eab59.chunk.js"
+  ]
+}
