@@ -14,7 +14,6 @@ function App() {
       <Router>
         <Switch>
           <Route exact path="/" component={Home} />
-          {/* <Route exact path="/features" component={Features} /> */}
           <Redirect to="/" />
         </Switch>
       </Router>

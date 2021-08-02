@@ -1,0 +1,100 @@
+.second-section {
+  overflow-x: hidden;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background: url(../img/section2.png) #fff1be;
+  background-repeat: no-repeat;
+  background-size: cover;
+  // background-color: #FFF1BE;
+  min-height: 100vh;
+  @media only screen and (max-width: 640px) {
+    background: url(../img/mobile/section-two.png) #fff1be;
+    display: block;
+    // grid-template-columns: 1fr;
+    margin: 0;
+  }
+
+  &__txt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+     @media only screen and (max-width: 640px) {
+         height: 100vh;
+         justify-content: space-between;
+     }
+  }
+
+  &__child {
+    background: url("../img/Group.png");
+    height: 11.5rem;
+    //   width: 90%;
+    background-repeat: no-repeat;
+    background-size: 87%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0rem;
+    @media only screen and (max-width: 640px) {
+      background: none;
+      //   background-size: 57%;
+      margin: 0;
+    }
+
+    &__txt {
+      width: 23rem;
+      margin-bottom: 2rem;
+      margin-left: 9rem;
+      margin-top: 0rem;
+      font-weight: 500;
+      font-size: 0.875rem;
+      line-height: 1.5;
+      color: #202020;
+      @media only screen and (max-width: 640px) {
+        width: 100%;
+        margin: 0;
+      }
+    }
+  }
+
+  .flexColContainer {
+    padding-top: 4rem;
+    @media only screen and (max-width: 640px) {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    &__mainTxt {
+      font-weight: 400;
+      font-family: "Caveat Brush", sans-serif;
+      color: "#DB0812";
+      font-size: 3.75rem;
+      @media only screen and (max-width: 640px) {
+        font-size: 3rem;
+        display: flex;
+        justify-content: center;
+      }
+    }
+
+    &__subtxt {
+        font-family:"Roboto Slab", serif;
+      font-weight: 500;
+      font-size: 0.875rem;
+      line-height: 1.5;
+      color: #202020;
+      width: 23rem;
+      @media only screen and (max-width: 640px) {
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        margin-left: 2rem;
+      }
+    }
+
+    .second-section__child {
+      &____txt {
+        width: 18.75rem;
+      }
+    }
+  }
+}

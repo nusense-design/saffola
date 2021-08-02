@@ -1,6 +1,6 @@
 import React from "react";
 
-import "./secondSection.scss";
+import "./products.scss";
 
 const Products = () => {
   return (
@@ -10,17 +10,16 @@ const Products = () => {
         <div className="flexColContainer">
           <div className="flexColContainer__mainTxt">Classic Masala</div>
           <p className="flexColContainer__subtxt">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
-            id fuga cumque maxime voluptas vel deserunt corporis ullam minima
-            sit.
+            Your favourite mix desi spices now in a chatpata snack! Enjoy a bowl
+            of mouth-watering Classic Masala flavour for that classic taste in
+            delightful Saffola masala oats!
           </p>
         </div>
         <div className="second-section__child">
           <span className="second-section__child__txt">
-            Top your bowl of classic masala oats with<br/> crushed peanuts for the
-            extra bite
+            Top your bowl of classic masala oats with
+            <br /> crushed peanuts for the extra bite
           </span>{" "}
-         
         </div>
       </div>
     </div>

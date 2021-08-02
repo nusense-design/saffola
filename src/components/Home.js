@@ -16,10 +16,10 @@ const Home = () => {
       <div id="products">
         <Products />
       </div>
-      {/*<div id="features">
+      <div id="features">
         <Features />
       </div>
-      <div id="preparation">
+      {/*<div id="preparation">
         <Preparation />
       </div>
       <div id="recipe">

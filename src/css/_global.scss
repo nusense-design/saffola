@@ -4,11 +4,7 @@
   }
 }
 
-body{
-  overflow: hidden;
-  // scroll-behavior: smooth;
 
-}
 .hide-for-desktop {
   @include breakpoint-up(large) {
     display: none;
