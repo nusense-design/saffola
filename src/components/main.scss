@@ -1,19 +1,21 @@
-.main-section{
-    height: 90vh;
+.main-section {
+  height: 90vh;
 
-    .herotxt{
-        display: flex;
-        width: 100%;
-        justify-content:center;
-        align-items: center;
-        text-align: left;
-        margin-top: 1.5rem;
+  .herotxt {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    margin-top: 6rem;
+    /* Portrait and Landscape */
+    @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+      margin-top: calc(6rem + 4rem);
     }
+  }
 
-    .subherotxt{
-        display: flex;
-        justify-content: center;
-
-    }
+  .subherotxt {
+    display: flex;
+    justify-content: center;
+  }
 }
-

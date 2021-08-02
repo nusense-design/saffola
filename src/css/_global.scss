@@ -4,6 +4,11 @@
   }
 }
 
+body{
+  overflow: hidden;
+  // scroll-behavior: smooth;
+
+}
 .hide-for-desktop {
   @include breakpoint-up(large) {
     display: none;
@@ -38,6 +43,10 @@
   display: grid;
   &-c2{
     grid-template-columns: repeat(2,1fr);
+    @include breakpoint-down(medium) {
+      grid-template-columns: 1fr;
+
+    }
   }
 }
 

@@ -13,10 +13,10 @@ const Home = () => {
       <div id="landingPage">
         <LandingPage />
       </div>
-      {/* <div id="products">
+      <div id="products">
         <Products />
       </div>
-      <div id="features">
+      {/*<div id="features">
         <Features />
       </div>
       <div id="preparation">

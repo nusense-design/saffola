@@ -7,11 +7,20 @@
       background-position: top right;
     }
     @include breakpoint-down(medium) {
-      background: url(../img/hero-image.png) #fcc517;
+      width: 100vw;
+      background: url(../img/mobile/hero.png) #fcc517;
+      // background: url(../img/hero-image.png) #fcc517;
       background-repeat: no-repeat;
       background-position: top left;
-    }
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
 
-    
+      .herotxt {
+        font-size: 1rem;
+      }
+    }
   }
+  
 }
