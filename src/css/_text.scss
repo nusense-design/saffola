@@ -1,0 +1,18 @@
+.herotxt {
+  font-family: $font-cursive, "sans-serif";
+  font-size: 3.75rem;
+  line-height: 1.1;
+  font-weight: 400;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.para {
+  font-family: $font-primary, serif;
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 1.25;
+  color: $white;
+}
+

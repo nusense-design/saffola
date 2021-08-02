@@ -1,0 +1,49 @@
+.testimonals {
+     background-color: #eeeeee73;
+
+  .grid {
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    column-gap: 2.5rem;
+    // padding-left: 8.75rem;
+    padding:2.5rem 8.75rem;
+  }
+  .flex-center{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+  }
+
+  &__header{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-top: 4rem;
+      margin-bottom: 2rem;
+  }
+  .grid-item{
+      
+      &__author {
+        color: #db0812;
+        font-family: "Roboto Slab", serif;
+        font-weight: 500;
+        font-size: 1.25rem;
+
+        &_para{
+            color: #202020;
+            font-family: 'Roboto Slab';
+            font-weight: 500;
+            font-size: 0.75rem;
+            opacity: 0.4;
+        }
+      }
+      &__para {
+        color: #202020;
+        font-weight: 500;
+        font-size: 0.875rem;
+        text-align: center;
+        width: 70%
+      }
+  }
+}

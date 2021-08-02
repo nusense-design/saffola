@@ -1,0 +1,28 @@
+@media (min-width: 64em) {
+  // style go here
+}
+
+// small :640px, medium :1024px ,large :1400px
+$breakpoint-up: (
+  "medium": "40em",
+  "large": "64em",
+  "xlarge": "87.5em",
+);
+$breakpoint-down: (
+  "small": "39.937em",
+  "medium": "63.937em",
+  "large": "87.4375em",
+);
+
+@mixin breakpoint-up($size) {
+  @media (min-width: map-get($breakpoint-up, $size)) {
+    @content;
+  }
+}
+@mixin breakpoint-down($size) {
+  @media (max-width: map-get($breakpoint-down, $size)) {
+    @content;
+  }
+}
+
+// wherever use use=> @include mixin_name (_){properties}

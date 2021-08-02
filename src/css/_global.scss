@@ -1,0 +1,45 @@
+.hide-for-mobile {
+  @include breakpoint-down(medium) {
+    display: none;
+  }
+}
+
+.hide-for-desktop {
+  @include breakpoint-up(large) {
+    display: none;
+  }
+}
+
+// flexbox
+.flex {
+  display: flex;
+
+  &-jc-sb {
+    justify-content: space-between;
+  }
+  &-jc-sa {
+    justify-content: space-around;
+  }
+  &-jc-c {
+    justify-content: center;
+  }
+  &-ai-c {
+    align-items: center;
+  }
+  &-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+}
+
+.grid{
+  display: grid;
+  &-c2{
+    grid-template-columns: repeat(2,1fr);
+  }
+}
+
+
+

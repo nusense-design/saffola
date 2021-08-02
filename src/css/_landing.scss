@@ -1,0 +1,17 @@
+.landing {
+  &__container {
+    @include breakpoint-up(large) {
+      // display: none !important;
+      background: url(../img/hero-image.png) #fcc517;
+      background-repeat: no-repeat;
+      background-position: top right;
+    }
+    @include breakpoint-down(medium) {
+      background: url(../img/hero-image.png) #fcc517;
+      background-repeat: no-repeat;
+      background-position: top left;
+    }
+
+    
+  }
+}

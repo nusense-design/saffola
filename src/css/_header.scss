@@ -1,0 +1,42 @@
+.header {
+  padding: 1.25rem;
+  background-color: transparent;
+
+  
+  &__menu {
+    // mobile hamburger
+    @include breakpoint-up(large) {
+      display: none ;
+    }
+    > span {
+      display: block;
+      width: 1.5rem;
+      background-color: #db0812;
+      height: 4px;
+      &:not(:last-child) {
+        margin-bottom: 0.5rem;
+      }
+    }
+  }
+
+  &__links{
+      a,a:visited,a:hover {
+        text-decoration: none;
+        line-height: 1.5;
+        color: $white;
+        font-weight: 500;
+        font-family:"Roboto Slab", serif;
+      }
+
+  }
+  nav {
+    ul {
+      @include breakpoint-down(medium) {
+        display: none ;
+      }
+    }
+    li {
+      list-style: none;
+    }
+  }
+}

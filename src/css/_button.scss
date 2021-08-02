@@ -1,0 +1,18 @@
+.button{
+    border:none;
+    width: 9.365rem;
+    height: 3.125rem;
+    border-radius: 0.5em;
+    cursor: pointer;
+}
+
+.btntxt{    
+    font-weight: 500;
+    font-family: $font-primary, serif;
+    line-height: 1.563;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 0.03em;
+}
+

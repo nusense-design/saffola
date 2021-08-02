@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="817px" height="1063px" viewBox="0 0 817 1063" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>bg</title>
+    <defs>
+        <linearGradient x1="-23.7329066%" y1="45.9936438%" x2="236.39663%" y2="55.4070021%" id="linearGradient-1">
+            <stop stop-color="#8E6A46" offset="2%"></stop>
+            <stop stop-color="#F1D07C" offset="40%"></stop>
+            <stop stop-color="#D9B76E" offset="43%"></stop>
+            <stop stop-color="#B9965C" offset="49%"></stop>
+            <stop stop-color="#A37E50" offset="54%"></stop>
+            <stop stop-color="#957048" offset="59%"></stop>
+            <stop stop-color="#906B45" offset="63%"></stop>
+            <stop stop-color="#987449" offset="66%"></stop>
+            <stop stop-color="#AD8B54" offset="70%"></stop>
+            <stop stop-color="#CFB165" offset="76%"></stop>
+            <stop stop-color="#F1D777" offset="81%"></stop>
+            <stop stop-color="#D8BB6B" offset="83%"></stop>
+            <stop stop-color="#BD9E5D" offset="86%"></stop>
+            <stop stop-color="#A88753" offset="88%"></stop>
+            <stop stop-color="#9A774C" offset="91%"></stop>
+            <stop stop-color="#916D47" offset="95%"></stop>
+            <stop stop-color="#8E6A46" offset="99%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Design-v3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ipad-1" transform="translate(1.000000, 0.000000)">
+            <g id="banner" transform="translate(-1.000000, 0.000000)">
+                <g id="bg" transform="translate(0.028233, -0.000000)">
+                    <polygon id="Path" fill="#FCC517" points="1 9.09494702e-13 811 1.10433884e-12 811 585 1 585"></polygon>
+                    <path d="M1.79100272,180.393314 C-1.41457646,197.703972 4.78715811,231.190903 20.3962064,280.854108 C43.8097789,355.348915 31.694157,348.431726 103.86501,402.715863 C176.035863,457 297.023699,434.908179 342.229463,434.908179 C387.435227,434.908179 611.645508,363.597442 699.942706,363.814132 C758.807504,363.958592 796.621557,363.958592 813.384865,363.814132 L815.413098,413.00332 L815.413098,1063 L1.41309763,1063 L1.79100272,180.393314 Z" id="Path-Copy" fill="#DB0812"></path>
+                    <path d="M1.26986154,224.335524 C10.6908024,291.345475 23.0292391,386.858542 135.776637,441.748955 C280.772262,512.33923 699.311281,353.450134 810.827799,373.325703 C810.975209,373.351976 811.13637,373.446605 811.311281,373.609589 L811.284746,357.950134 C811.284746,357.287905 811.276365,356.454571 811.259603,355.450134 C709.240756,285.934644 294.910253,512.33923 148.873079,417.179775 C51.5149632,353.740138 2.25062202,252.223968 1.08005558,112.631265 L0.97176743,222 C1.1016603,223.06739 1.201025,223.845898 1.26986154,224.335524 Z" id="Path" fill="url(#linearGradient-1)" fill-rule="nonzero"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

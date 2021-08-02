@@ -1,0 +1,32 @@
+.features {
+  background-color: #fcc517;
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+
+  &__para{
+      font-family:"Roboto Slab", serif;
+      font-weight: 500;
+      font-size: 0.75rem;
+      opacity: 0.4;
+  }
+  &__image {
+    img {
+      width: 100%;
+    }
+  }
+
+  &__main{
+      padding: 2rem 3.5rem;  
+      
+  }
+
+  &__grid {
+    display: grid;
+    padding-top: 3.5rem;
+    grid-template-columns: repeat(3, 1fr);
+   height: 70%;
+   width: 70%;
+    margin: auto;
+    gap:1.5rem
+  }
+}
