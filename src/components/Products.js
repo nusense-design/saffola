@@ -2,7 +2,7 @@ import React from "react";
 
 import "./secondSection.scss";
 
-const SecondSection = () => {
+const Products = () => {
   return (
     <div className="second-section">
       <div className="second-section__img"></div>
@@ -27,4 +27,4 @@ const SecondSection = () => {
   );
 };
 
-export default SecondSection;
+export default Products;

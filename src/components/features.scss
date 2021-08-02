@@ -25,8 +25,15 @@
     padding-top: 3.5rem;
     grid-template-columns: repeat(3, 1fr);
    height: 70%;
-   width: 70%;
+   width: 65%;
     margin: auto;
-    gap:1.5rem
+    gap:1.5rem;
+    
+    p{
+      font-family:"Roboto Slab", serif;
+      align-items: center;
+      font-weight: 500;
+      font-size: 1.25rem;
+    }
   }
 }

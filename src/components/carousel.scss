@@ -1,0 +1,20 @@
+.carousel {
+  // height: 100vh;
+  background-color: rgb(252, 197, 23);
+
+  &__main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4.43rem 0;
+  }
+
+  .rec-arrow-left:hover:enabled,
+  .rec-arrow-left:focus:enabled {
+    background-color: transparent;
+  }
+  .rec-arrow-right:hover:enabled,
+  .rec-arrow-right:focus:enabled {
+    background-color: transparent;
+  }
+}

@@ -1,21 +1,23 @@
 import "./App.scss";
-import LandingPage from './components/LandingPage';
-import SecondSection from './components/SecondSection';
+import {
+  BrowserRouter as Router,
+  Redirect,
+  Route,
+  Switch,
+} from "react-router-dom";
+import Home from './components/Home';
 import Features from './components/Features';
-import Preparation from './components/Preparation';
-import Testimonals from './components/Testimonals';
-import Footer from './components/Footer';
-
 
 function App() {
   return (
     <div className="App">
-      <LandingPage />
-      <SecondSection />
-      <Features />
-      <Preparation />
-      <Testimonals />
-      <Footer />
+      <Router>
+        <Switch>
+          <Route exact path="/" component={Home} />
+          {/* <Route exact path="/features" component={Features} /> */}
+          <Redirect to="/" />
+        </Switch>
+      </Router>
     </div>
   );
 }

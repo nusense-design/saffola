@@ -2,7 +2,7 @@
   "name": "assignment_schbang",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://nusense.in",
+  "homepage": "https://nusense-design.github.io/schbang-assignment/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
@@ -11,9 +11,12 @@
     "node-sass": "^4.14.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-elastic-carousel": "^0.11.5",
     "react-icons": "^4.2.0",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
+    "react-scroll": "^1.8.3",
+    "styled-components": "^5.3.0",
     "swiper": "^6.8.0",
     "web-vitals": "^1.1.2"
   },
@@ -23,7 +26,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-     "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [

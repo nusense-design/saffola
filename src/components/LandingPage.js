@@ -13,7 +13,8 @@ const LandingPage = () => {
     return (
         <div className="landing__container">
             <Navbar />
-            <MainSection /> 
+            <MainSection />
+            
         </div>
     )
 }
