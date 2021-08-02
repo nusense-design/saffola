@@ -14,10 +14,8 @@ const Navbar = () => {
   return (
     <>
       <header
-        className={open ? "header navbar" : "header navbar overlay"}
-        style={{
-          backgroundColor: open ? "transparent" : "#db0812",
-        }}>
+        className={open ? "header navbar" : "header navbar overlay bgRed"}
+        >
         <nav className="flex flex-jc-sb flex-ai-c">
           <a href="#" className="header__logo ">
             <img src={Logo} alt="Logo" />

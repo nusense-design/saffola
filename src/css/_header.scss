@@ -3,13 +3,18 @@
   background-color: transparent;
   // width: 100vw;
 
-  
+  @include breakpoint-down(medium) {
+    &.bgRed {
+      background-color: #db0812;
+    }
+  }
+
   &__menu {
     // mobile hamburger
     @include breakpoint-up(large) {
-      display: none ;
+      display: none;
     }
-    
+
     > span {
       display: block;
       width: 1.58rem;
@@ -22,34 +27,34 @@
       }
     }
 
-    &.open{
-      >span:first-child {
-         transform: rotate(45deg);
+    &.open {
+      > span:first-child {
+        transform: rotate(45deg);
       }
-      >span:nth-child(2) {
+      > span:nth-child(2) {
         opacity: 0;
       }
-      >span:last-child {
-         transform: rotate(-45deg);
+      > span:last-child {
+        transform: rotate(-45deg);
       }
     }
-   
   }
 
-  &__links{
-      a,a:visited,a:hover {
-        text-decoration: none;
-        line-height: 1.5;
-        color: $white;
-        font-weight: 500;
-        font-family:"Roboto Slab", serif;
-      }
-
+  &__links {
+    a,
+    a:visited,
+    a:hover {
+      text-decoration: none;
+      line-height: 1.5;
+      color: $white;
+      font-weight: 500;
+      font-family: "Roboto Slab", serif;
+    }
   }
   nav {
     ul {
       @include breakpoint-down(medium) {
-        display: none ;
+        display: none;
       }
     }
     li {
@@ -58,24 +63,24 @@
   }
 }
 
-.nav-content{
+.nav-content {
   @include breakpoint-up(large) {
-      display: none ;
-    }
+    display: none;
+  }
   transition: all 200ms ease-in-out;
   display: flex;
   flex-direction: column;
- 
-  font-family: "Caveat Brush",sans-serif;
+
+  font-family: "Caveat Brush", sans-serif;
   font-weight: 400;
   font-size: 2.5rem;
   align-items: center;
   list-style: none;
   color: #fff;
-  &.hide{
+  &.hide {
     display: none;
   }
   z-index: 111;
-  background-color:#db0812;
+  background-color: #db0812;
   height: 84vh;
 }
