@@ -3,11 +3,16 @@
   display: grid;
   grid-template-columns: 3fr 2fr;
 
-  &__para{
-      font-family:"Roboto Slab", serif;
-      font-weight: 500;
-      font-size: 0.75rem;
-      opacity: 0.4;
+  @media only screen and (max-width: 600px) {
+    display: grid;
+  grid-template-columns: 1fr;
+  }
+
+  &__para {
+    font-family: "Roboto Slab", serif;
+    font-weight: 500;
+    font-size: 0.75rem;
+    opacity: 0.4;
   }
   &__image {
     img {
@@ -15,25 +20,39 @@
     }
   }
 
-  &__main{
-      padding: 2rem 3.5rem;  
-      
+  &__main {
+    padding: 2rem 3.5rem;
+    @media only screen and (max-width: 600px) {
+    order: 2;}
   }
 
   &__grid {
     display: grid;
     padding-top: 3.5rem;
     grid-template-columns: repeat(3, 1fr);
-   height: 70%;
-   width: 65%;
+    height: 70%;
+    width: 65%;
     margin: auto;
-    gap:1.5rem;
-    
-    p{
-      font-family:"Roboto Slab", serif;
+    gap: 1.5rem;
+    @media only screen and (max-width: 600px) {
+      grid-template-columns: repeat(2, 1fr);
+      height: 70%;
+    }
+
+    p {
+      font-family: "Roboto Slab", serif;
       align-items: center;
       font-weight: 500;
       font-size: 1.25rem;
     }
+
+  }
+  .features__image{
+     @media only screen and (max-width: 600px) {
+       img{
+        //  display: none;
+        order: 1;
+       }
+     }
   }
 }

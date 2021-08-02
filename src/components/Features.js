@@ -1,10 +1,10 @@
 import React from "react";
 import Herotxt from "../common/Herotxt";
 import oats from "../img/oats-3.svg";
-import vegies from "../img/vegetable.svg"
-import noPreserve from "../img/no additives -3.svg"
+import vegies from "../img/vegetable.svg";
+import noPreserve from "../img/no additives -3.svg";
 import fiber from "../img/hi fiber.svg";
-import clock from "../img/clock.svg"
+import clock from "../img/clock.svg";
 import img from "../img/section-img.png";
 import "./features.scss";
 
@@ -35,7 +35,9 @@ const Features = () => {
           </div>
           <div className="fetaures__grid__child">
             <img src={noPreserve} alt="oats" />
-            <p>No added <br/> preservatives</p>
+            <p>
+              No added <br /> preservatives
+            </p>
           </div>
           <div className="fetaures__grid__child">
             <img src={fiber} alt="oats" />
@@ -46,7 +48,10 @@ const Features = () => {
           </div>
           <div className="fetaures__grid__child">
             <img src={oats} alt="oats" />
-            <p>Upto 70% <br/>less fat***</p>
+            <p>
+              Upto 70% <br />
+              less fat***
+            </p>
           </div>
           <div className="fetaures__grid__child">
             <img src={clock} alt="oats" />
