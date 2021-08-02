@@ -13,7 +13,7 @@ const Home = () => {
       <div id="landingPage">
         <LandingPage />
       </div>
-      <div id="products">
+      {/* <div id="products">
         <Products />
       </div>
       <div id="features">
@@ -29,7 +29,7 @@ const Home = () => {
         <Testimonals />
       </div>
 
-      <Footer />
+      <Footer /> */}
     </div>
   );
 };

@@ -1,21 +1,26 @@
-.navbar{
-    a{
-        font-weight: 400;
-        font-size: 0.875rem;
-        line-height: 1.5;
-        color: #fff;
-        font-family: "Roboto Slab",serif;
-        margin-right: 1.25rem;
-    }
+.navbar {
+  a {
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    color: #fff;
+    font-family: "Roboto Slab", serif;
+    margin-right: 1.25rem;
+  }
 
-    ul{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+  ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
-    li{
-        cursor: pointer;
-       
+  li {
+    cursor: pointer;
+  }
+  &.overlay {
+    > li {
+      display: flex;
+      flex-direction: column;
     }
+  }
 }

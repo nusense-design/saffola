@@ -1,6 +1,7 @@
 .header {
   padding: 1.25rem;
   background-color: transparent;
+  // width: 100vw;
 
   
   &__menu {
@@ -8,15 +9,31 @@
     @include breakpoint-up(large) {
       display: none ;
     }
+    
     > span {
       display: block;
-      width: 1.5rem;
+      width: 1.58rem;
       background-color: #db0812;
       height: 4px;
+      transition: all 300ms ease-in-out;
+      transform-origin: -3px 2px;
       &:not(:last-child) {
         margin-bottom: 0.5rem;
       }
     }
+
+    &.open{
+      >span:first-child {
+         transform: rotate(45deg);
+      }
+      >span:nth-child(2) {
+        opacity: 0;
+      }
+      >span:last-child {
+         transform: rotate(-45deg);
+      }
+    }
+   
   }
 
   &__links{
@@ -39,4 +56,26 @@
       list-style: none;
     }
   }
+}
+
+.nav-content{
+  @include breakpoint-up(large) {
+      display: none ;
+    }
+  transition: all 200ms ease-in-out;
+  display: flex;
+  flex-direction: column;
+ 
+  font-family: "Caveat Brush",sans-serif;
+  font-weight: 400;
+  font-size: 2.5rem;
+  align-items: center;
+  list-style: none;
+  color: #fff;
+  &.hide{
+    display: none;
+  }
+  z-index: 111;
+  background-color:#db0812;
+  height: 84vh;
 }
