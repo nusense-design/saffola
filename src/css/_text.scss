@@ -7,7 +7,7 @@
   flex-direction: column;
   justify-content: center;
   @include breakpoint-down(medium) {
-    font-size: 3.4rem !important;
+    font-size: 3.4rem ;
   }
 }
 
@@ -18,4 +18,5 @@
   line-height: 1.25;
   color: $white;
 }
+
 

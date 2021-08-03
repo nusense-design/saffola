@@ -22,14 +22,14 @@ const Home = () => {
       <div id="preparation">
         <Preparation />
       </div>
-      {/*<div id="recipe">
+      <div id="recipe">
         <Recipe />
       </div>
       <div id="testimonals">
         <Testimonals />
       </div>
 
-      <Footer /> */}
+      <Footer />
     </div>
   );
 };
