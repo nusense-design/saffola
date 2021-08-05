@@ -15,6 +15,8 @@
       display: none;
     }
 
+    margin-left: 53vw;
+
     > span {
       display: block;
       width: 1.58rem;
@@ -70,7 +72,6 @@
   transition: all 200ms ease-in-out;
   display: flex;
   flex-direction: column;
-
   font-family: "Caveat Brush", sans-serif;
   font-weight: 400;
   font-size: 2.5rem;

@@ -12,9 +12,9 @@ const Navbar = () => {
     setClose(!open);
   }, [open]);
   return (
-    <>
+    <div className="navbar__conatiner">
       <header
-        className={open ? "header navbar" : "header navbar overlay bgRed"}
+        className={open ? "header navbar" : "header navbar overlay bgRed"} style={{position: open ? "absolute" : ""}}
         >
         <nav className="flex flex-jc-sb flex-ai-c">
           <a href="#" className="header__logo ">
@@ -112,7 +112,7 @@ const Navbar = () => {
           </Link>
         </li>
       </div>
-    </>
+    </div>
   );
 };
 

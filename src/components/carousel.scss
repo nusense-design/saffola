@@ -2,20 +2,20 @@
   // height: 100%;
   background-color: rgb(252, 197, 23);
 
-    &::before{
-      content: url("../img/top-before.svg");
-        position: absolute;
-        // background-color: #FCC517;
-        width: 100vw;
-        height: 3%;
-        // bottom: 0;
-        right:0;
-        z-index: 111;
-        margin-top: -1%;
-        cursor: pointer;
-         @media only screen and (max-width: 640px) {
-             display: none;
-           }
+  .recipe::before {
+    content: url("../img/top-before.svg");
+    position: absolute;
+    // background-color: #FCC517;
+    width: 100vw;
+    height: 3%;
+    // bottom: 0;
+    right: 0;
+    z-index: 111;
+    margin-top: -1%;
+    cursor: pointer;
+    @media only screen and (max-width: 640px) {
+      display: none;
+    }
   }
 
   &__main {
@@ -23,14 +23,13 @@
     justify-content: center;
     align-items: center;
     padding: 0;
-    padding-top: 1.6rem  ;
-    padding-bottom: 0.6rem  ;
+    padding-top: 1.6rem;
+    padding-bottom: 0.6rem;
   }
 
-  &__cards{
-  //  width: 100%;
-  margin-top: -3rem;
-  
+  &__cards {
+    //  width: 100%;
+    margin-top: -3rem;
   }
 
   .rec-arrow-left:hover:enabled,

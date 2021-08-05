@@ -1,4 +1,5 @@
 import React from 'react'
+import MainPage from './MainPage'
 import MainSection from './MainSection'
 import Navbar from './Navbar'
 
@@ -13,7 +14,8 @@ const LandingPage = () => {
     return (
         <div className="landing__container">
             <Navbar />
-            <MainSection />    
+            {/* <MainSection />     */}
+            <MainPage/>
         </div>
     )
 }

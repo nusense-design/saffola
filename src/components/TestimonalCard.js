@@ -1,6 +1,6 @@
 import React from 'react'
-import "./testimonals.scss";
 import testimonal from "../img/quote.svg";
+import "./testimonals.scss";
 
 const TestimonalCard = () => {
     return (

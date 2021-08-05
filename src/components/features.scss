@@ -8,11 +8,23 @@
   grid-template-columns: 1fr;
   }
 
+  &__herotxt{
+    @media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 680px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    text-align: center;
+  }
+  }
+
   &__para {
     font-family: "Roboto Slab", serif;
     font-weight: 500;
     font-size: 0.75rem;
     opacity: 0.4;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
   }
   &__image {
     img {

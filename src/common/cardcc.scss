@@ -66,12 +66,13 @@
   color: #fff;
   font-size: 3rem;
   position: absolute;
-  bottom: 20%;
+  bottom: 23%;
   left: 15%;
   font-family: 'Caveat Brush', cursive;
   font-weight: 400;
   line-height: 1.125;
   color: #fff;
+  text-align: center;
 }
 
 .heading_arrow{
@@ -82,7 +83,7 @@
 .heading span:not(:last-child){
     position: absolute;
     bottom: 20%;
-    left: 20%;
+    left: 25%;
     right:auto;
     color:#fff;
     font-family: "Roboto Slab",sans-serif;
@@ -92,7 +93,7 @@
 .heading span:not(:first-child){
     position: absolute;
     bottom: 20%;
-    left: 50%;
+    left: 60%;
     right:auto;
     color:#fff;
       font-family: "Roboto Slab",sans-serif;

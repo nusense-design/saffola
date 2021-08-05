@@ -12,7 +12,7 @@ const Features = () => {
   return (
     <div className="features ">
       <div className="features__main">
-        <div className="flexCenter flex-center">
+        <div className="flexCenter flex-center features__herotxt">
           <Herotxt
             text="Delicious and
                       healthy too!"

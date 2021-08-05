@@ -60,4 +60,19 @@
   color: #DB0812 !important;
 }
 
+ul.header__as {
+  @media only screen and (min-device-width: 320px) and (max-device-width: 680px) and (-webkit-min-device-pixel-ratio: 2) {
+    display: none !important;
+  }
+}
+
+.card{
+  background-color: transparent !important;
+  border: none !important;
+}
+
+a,a:hover{
+  color: #fff !important;
+}
+
 

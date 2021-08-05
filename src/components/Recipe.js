@@ -21,7 +21,7 @@ const Recipe = () => {
      query: "(min-width: 1224px)",
    });
   return (
-    <div className="carousel">
+    <div className="carousel recipe">
       <div className="carousel__main">
         <Herotxt
           text="Steaming Yummy Recipes"

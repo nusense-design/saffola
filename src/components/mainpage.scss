@@ -1,0 +1,58 @@
+.mainpage {
+  .carousel {
+    height: 100vh;
+    width: 100%;
+
+    &__head {
+      font-family: "Caveat Brush", cursive;
+      font-weight: 400;
+      font-size: 3.6rem;
+      width: 100%;
+
+      @media only screen and (min-device-width: 320px) and (max-device-width: 680px) and (-webkit-min-device-pixel-ratio: 2) {
+        font-size: 2.6rem;
+      }
+    }
+
+    &__caption {
+      position: absolute;
+      right: 21%;
+      bottom: 24.25rem;
+      left: 15%;
+      padding-top: 1.25rem;
+      padding-bottom: 1.25rem;
+      color: #fff;
+      text-align: center;
+    }
+
+    .carousel-caption {
+      position: absolute;
+      /* right: -40%; */
+      bottom: 14.25rem;
+      left: 62%;
+      padding-top: 1.25rem;
+      padding-bottom: 1.25rem;
+      color: #fff;
+      text-align: center;
+
+      @media only screen and (min-device-width: 320px) and (max-device-width: 680px) and (-webkit-min-device-pixel-ratio: 2) {
+        position: absolute;
+        /* right: -40%; */
+        bottom: 14.25rem;
+        left: 21%;
+        top: 50%;
+        padding-top: 1.25rem;
+        padding-bottom: 1.25rem;
+        color: #fff;
+        text-align: center;
+      }
+    }
+  }
+
+  .carousel__image {
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  
+}
