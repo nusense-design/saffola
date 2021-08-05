@@ -1,57 +1,75 @@
 .testimonals {
-     background-color: #eeeeee73;
-     
+  background-color: #FFF1BE;
+
+  
 
   .grid {
     display: grid;
-    grid-template-columns:1fr 1fr 1fr;
-    @media only screen and (max-width: 600px) {
-      grid-template-columns:1fr;
- 
-}
+    grid-template-columns: 1fr 1fr 1fr;
     column-gap: 2.5rem;
-    // padding-left: 8.75rem;
-    padding:2.5rem 8.75rem;
+   
+    padding: 2.5rem 8.75rem;
+    @media only screen and (max-width: 640px) {
+      grid-template-columns: 1fr;
+       padding: 2.5rem 4.75rem;
+    }
   }
-  .flex-center{
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
+  .flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
   }
 
-  &__header{
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      padding-top: 4rem;
-      margin-bottom: 2rem;
-       @media only screen and (max-width: 600px) {
-        padding: 1rem;
-      }
+  &__header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 4rem;
+    margin-bottom: 2rem;
+    @media only screen and (max-width: 640px) {
+      padding: 1rem;
+    }
   }
-  .grid-item{
+  .grid-item {
+    &__author {
+      color: #db0812;
+      font-family: "Roboto Slab", serif;
+      font-weight: 500;
+      font-size: 1.25rem;
+      border-top: 2px solid #FCC517;
       
-      &__author {
-        color: #db0812;
-        font-family: "Roboto Slab", serif;
-        font-weight: 500;
-        font-size: 1.25rem;
+      &_heading{
+        margin-top: 15px;
+      }
+      // margin-top: 2px;
+      // &::before{
+      //   content:'';
+      //   position: absolute;
+      //   background-color: #FCC517;
+      //   width: 30%;
+      //   height: 3px;
+      //   bottom: 0;
+      //   left:0;
 
-        &_para{
-            color: #202020;
-            font-family: 'Roboto Slab';
-            font-weight: 500;
-            font-size: 0.75rem;
-            opacity: 0.4;
-        }
-      }
-      &__para {
+      // }
+
+      &_para {
         color: #202020;
+        font-family: "Roboto Slab";
         font-weight: 500;
-        font-size: 0.875rem;
-        text-align: center;
-        width: 70%
+        font-size: 0.75rem;
+        opacity: 0.4;
+        
       }
+    }
+    &__para {
+      color: #202020;
+      font-weight: 500;
+      font-size: 0.875rem;
+      text-align: center;
+      width: 70%;
+      padding-bottom: 20px;
+    }
   }
 }

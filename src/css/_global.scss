@@ -46,5 +46,18 @@
   }
 }
 
+.carousel-component{
+  .rec-carousel-item{
+    display: flex;
+  }
+}
+
+.rec-arrow{
+  background-color: transparent !important;
+  box-shadow: none !important;
+  border: none;
+  outline: none;
+  color: #DB0812 !important;
+}
 
 

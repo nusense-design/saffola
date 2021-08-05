@@ -7,6 +7,8 @@ import Testimonals from "./Testimonals";
 import Footer from "./Footer";
 import Recipe from "./Recipe";
 
+
+
 const Home = () => {
   return (
     <div>
@@ -16,18 +18,19 @@ const Home = () => {
       <div id="products">
         <Products />
       </div>
+
       <div id="features">
         <Features />
       </div>
       <div id="preparation">
         <Preparation />
       </div>
-      <div id="recipe">
+     <div id="recipe">
         <Recipe />
       </div>
       <div id="testimonals">
         <Testimonals />
-      </div>
+      </div> 
 
       <Footer />
     </div>

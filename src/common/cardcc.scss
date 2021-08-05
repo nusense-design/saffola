@@ -1,0 +1,137 @@
+:root {
+  --primary: #FCC517;
+  --secondary: #FFF4D1;
+  --ternary: #DB0812;
+  --light: #fff;
+}
+
+.card {
+  margin: 100px auto 0;
+  width: 360px;
+  height: 500px;
+  perspective: 1000px;
+  box-sizing: border-box;
+  margin-bottom: 15%;
+}
+
+.card__inner {
+  width: 100%;
+  height: 100%;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+  cursor: pointer;
+  position: relative;
+}
+
+.card__inner.is-flipped {
+  transform: rotateY(180deg);
+}
+
+.card__face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  overflow: hidden;
+  border-radius: 16px;
+  box-shadow: 0px 3px 18px 3px rgba(0, 0, 0, 0.2);
+}
+
+.card__face--front {
+  background-image: linear-gradient(
+    180%,
+    #000 14%,
+    #050400 47%
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* position: relative; */
+}
+
+
+.card__face--front__image{
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  @media only screen and (max-width: 640px) {
+       height: 100%; 
+      
+    }
+}
+
+
+.heading h2 {
+  color: #fff;
+  font-size: 3rem;
+  position: absolute;
+  bottom: 20%;
+  left: 15%;
+  font-family: 'Caveat Brush', cursive;
+  font-weight: 400;
+  line-height: 1.125;
+  color: #fff;
+}
+
+.heading_arrow{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.heading span:not(:last-child){
+    position: absolute;
+    bottom: 20%;
+    left: 20%;
+    right:auto;
+    color:#fff;
+    font-family: "Roboto Slab",sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+}
+.heading span:not(:first-child){
+    position: absolute;
+    bottom: 20%;
+    left: 50%;
+    right:auto;
+    color:#fff;
+      font-family: "Roboto Slab",sans-serif;
+      font-weight: 500;
+       font-size: 1rem;
+}
+
+.card__face--back {
+  background-color: var(--secondary);
+  transform: rotateY(180deg);
+  background-size: cover;
+  padding: 1.5rem;
+}
+
+.card__face--back  img{
+    margin-left: 94%;
+    margin-top: -5%;
+}
+
+.card__content {
+  width: 100%;
+  height: 100%;
+}
+
+
+.card__content h3, p{
+  color: #202020;
+  line-height: 1.7;
+  font-size: 0.8rem;
+  font-weight: 500;
+  font-family: "Roboto Slab",sans-serif;
+}
+.card__content  h3{
+  color: var(--ternary);
+  margin-bottom: 2rem;
+}
+.card__header {
+  position: relative;
+  padding: 30px 30px 40px;
+}
+
+

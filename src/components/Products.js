@@ -1,4 +1,5 @@
 import React from "react";
+import CarouselComp from "../common/Carousel";
 
 import "./products.scss";
 
@@ -20,6 +21,15 @@ const Products = () => {
             Top your bowl of classic masala oats with
             <br /> crushed peanuts for the extra bite
           </span>{" "}
+        </div>
+      </div>
+      <div className="second-section__grid">
+        <p className="second-section__grid__para flex-center">
+          Disclaimer: Vegetables are dehydrated to maintain goodness and taste,
+          Creative visualization, Suggested garnishing
+        </p>
+        <div className="second-section__grid__carousel">
+          <CarouselComp />
         </div>
       </div>
     </div>

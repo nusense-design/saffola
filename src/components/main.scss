@@ -10,12 +10,31 @@
     margin-top: 6rem;
     /* Portrait and Landscape */
     @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
-      margin-top: calc(6rem + 4rem);
+      margin-top: calc(6rem + 12rem);
     }
   }
 
   .subherotxt {
     display: flex;
     justify-content: center;
+    font-family: "Roboto Slab",sans-serif;
+    font-weight: 500;
+  }
+  .grid_span_full{
+    grid-column: 1/ -1  
+  }
+
+  &__para{
+    padding-left: 8.75rem;
+    font-family:"Roboto Slab", serif;
+    font-weight: 500;
+    font-size: 0.75rem;
+    opacity: 0.6;
+    color: #fff;
+      @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+        margin: 0;
+        padding: 0;
+        padding-left: 1rem;
+      }
   }
 }
