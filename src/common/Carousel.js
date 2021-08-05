@@ -32,6 +32,12 @@ const CarouselComp = () => {
         <div className="flex-center">
           <ButtonImg txt="Veggie Twist" img={vegieTwist} />
         </div>
+        <div className="flex-center">
+          <ButtonImg />
+        </div>
+        <div className="flex-center">
+          <ButtonImg txt="Veggie Twist" img={vegieTwist} />
+        </div>
       </Carousel>
     </div>
   );

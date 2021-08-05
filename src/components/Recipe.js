@@ -14,7 +14,7 @@ const Recipe = () => {
     { width: 1, itemsToShow: 1 },
     { width: 550, itemsToShow: 2, itemsToScroll: 2 },
     { width: 768, itemsToShow: 3 },
-    { width: 1200, itemsToShow: 4 },
+    { width: 1200, itemsToShow: 3 },
   ];
 
    const isDesktopOrLaptop = useMediaQuery({
@@ -38,6 +38,7 @@ const Recipe = () => {
         <CardCC image={CardImg} />
         <CardCC image={CardImg2} text="Spinach Oats Khichdi" />
         <CardCC image={CardImg3} text="Oats Palak Paneer Uttapam" />
+        <CardCC image={CardImg} />
       </Carousel>
     </div>
   );
