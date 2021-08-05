@@ -8,12 +8,28 @@ import {
   FaEnvelope,
   FaPhone,
 } from "react-icons/fa";
+import * as Scroll from "react-scroll";
+import {
+ 
+  animateScroll as scroll,
+  scrollSpy,
+  scroller,
+} from "react-scroll";
 
+// const  =()=> {
+//   scroll.scrollToTop();
+// },
 const Footer = () => {
+  
+  var scroll = Scroll.animateScroll;
+
+  const toTop = () => {
+     scroll.scrollToTop();
+   }
   return (
     <div>
       <footer className="footer">
-        <img src={upArrow} alt="" className="footer__arrow" />
+        <img src={upArrow} alt="" className="footer__arrow" onClick={()=>toTop()} />
         <div className="footer__header">
           <h3 className="footer__head">
             Follow us{" "}
