@@ -15,7 +15,7 @@ function MainPage() {
   return (
     <div className="mainpage">
       <div className="carousel__container">
-        <Carousel interval={"50000"} fade>
+        <Carousel interval={"10000"} fade>
           <Carousel.Item>
             <img
               className="d-block w-100 carousel__image"
