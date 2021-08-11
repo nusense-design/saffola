@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-This project was uploaded live[React App](https://nusense-design.github.io/saffola/).
+You can checkout React App [Live Link](https://nusense-design.github.io/saffola/).
 
 ## Available Scripts
 
