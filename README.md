@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was uploaded live[React App](https://nusense-design.github.io/saffola/).
 
 ## Available Scripts
 
